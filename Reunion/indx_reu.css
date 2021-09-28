@@ -1,0 +1,359 @@
+/* --- Global Level --- */
+
+@font-face {
+    font-family: 'Brush';
+    font-style: normal;
+    font-weight: normal;
+    src:url("./images/brush/brw.woff");
+  }
+
+@import url('https://fonts.googleapis.com/css2?family=Lemonada:wght@300;400;700&display=swap');
+
+
+
+*{
+    margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit ;
+	vertical-align: baseline;}
+
+article, aside,footer, header, menu, nav, section {
+	display: block;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+/* [---]--Assets/Features--[---] */
+
+
+/* Font weight -------------------------> */ 
+
+.fw-700{
+    font-weight: 700;
+}
+
+.fw-900{
+    font-weight: 900;
+}
+
+.fw-1200{
+    font-weight: 1200;
+}
+
+.fw-500{
+    font-weight: 500;
+}
+
+.fw-300{
+    font-weight: 300;
+}
+
+/* Colonne ------------------------->  */
+
+.colonne-50{
+    width: 50%;
+}
+
+.colonne-60{
+    width: 60%;
+}
+
+.colonne-70{
+    width: 70%;
+}
+
+.colonne-80{
+    width: 80%;
+}
+
+.colonne-40{
+    width: 40%;
+}
+
+.colonne-30{
+    width: 30%;
+}
+
+.colonne-20{
+    width: 20%;
+}
+
+/* Padding -------------------------> */
+
+.pad-1{
+    padding: 1em;
+}
+.pad-2{
+    padding: 2em;
+}
+.pad-3{
+    padding: 3em;
+}
+.pad-5{
+    padding: 5em;
+}
+.pad-10{
+    padding: 10em;
+}
+.pad-20{
+    padding: 20em;
+}
+
+/*  COLORS -------------------------> */
+
+.cb {
+    color: blue;
+
+}
+
+.cg {
+    color: green;
+
+}
+
+.cr {
+    color: red;
+
+}
+
+.cbw {
+    color: brown;
+
+}
+
+.co {
+    color: orangered;
+
+}
+
+.ct {
+    color: tan;
+
+}
+
+.ct2{
+    color: #D4B46A;
+}
+
+.cp {
+    color: purple;
+
+}
+
+.cvt {
+    color: rgb(39, 17, 56);
+
+}
+
+.cd {
+    color: black;
+}
+
+.cw {
+    color: white;
+    
+}
+
+/*Flex -------------------------> */
+
+.flex {
+    display: flex;
+}
+
+/* Background -------------------------> */
+
+.bgd {
+    background-color:black;
+}
+.bgw {
+    background-color:white;
+}
+
+.bgb {
+    background-color:rgb(24, 35, 134);
+}
+
+
+/* --- Header --- */
+
+
+
+#video-landing{
+   /* */
+  }
+  
+
+#video-landing .content {
+    position: fixed;
+    top: 0;
+    background-color: #f7f7f762;
+    color: #b91d1d;
+    width: 100%;
+    padding: 2em;
+}
+
+#video-landing .content a {
+   color: #fff;
+   font-weight:700;
+}
+
+#video-back{
+   position: fixed; 
+    right: 0; 
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+    width: auto; 
+    height: auto; 
+    z-index: -100;
+    max-width: 100px;
+}
+
+
+/* Inline Default block */
+nav {
+    line-height: none;
+}
+
+nav h1 {
+    cursor: pointer;
+}
+
+nav ul {
+    display: flex;
+    padding-right: 30px;
+    text-align: center;
+}
+
+nav li {
+   flex: 1;
+   list-style:none;
+   padding:2px;
+   display: block;
+
+   margin: 5px 2px;
+   
+}
+
+nav li a {
+    padding:0.5em;
+    font-family: 'Brush';
+    letter-spacing: 0.1em;
+    transition: all 0.8s ease-in-out;
+    color: #f5f5f5;
+    font-weight: 800;
+    font-size: 2em;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+
+nav li a:link {
+    padding:0.5em;
+}
+
+nav ul li a:hover{
+   color:white; 
+   
+}
+
+nav #logo{
+    margin-top: -38px;
+}
+
+nav #logo:hover{
+    margin-top: -38px;
+    
+}
+
+/* Content Text */
+
+.catch{
+    font-weight: 900;
+    font-size: 5em;
+    font-family: 'Brush';
+    color: #fff; 
+    letter-spacing: 0.2em;
+    
+}
+  
+#presentation {
+    background-color: #e4e4e4;
+  }
+  
+ #activity {
+    background-color: #9e9cb9;
+  }
+  
+#featured{
+    background-color: #565880;
+  }
+
+#news{
+    background-color: #373b6b;
+    color: #fff;
+  }
+
+#market{
+    background-color: #15194d;
+    color: #fff;
+  }
+#newsletter{
+    background-color: #04072b;
+    color: #fff;
+  }
+
+
+
+/* Button --- ALL MODIF --- */
+
+.button {
+	
+    transition: all 0.8s ease-in-out;
+    display: inline-block;
+    background: rgba(255, 255, 255, 0);
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 0.25em;
+    text-decoration: none;
+    border-radius: 3em;
+    border: 1px solid rgb(240, 210, 45);
+    outline: 0;
+    cursor: pointer;
+    padding: 0 2.25em 0 2.25em;
+    font-size: 0.8em;
+    min-width: 12em;
+    height: 4em;
+    line-height: 4em;
+}
+
+
+.button:hover {
+        background-color: rgb(240, 210, 45);
+        color: black;
+}
+
+#video-landing , section {
+    padding: 10%;
+    position: sticky;
+    top: 0;
+  }
+  
+
+  
+.stick {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+.stick img {
+    max-width: 100px;
+  }
